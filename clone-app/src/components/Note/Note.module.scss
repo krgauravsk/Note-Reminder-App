@@ -1,0 +1,28 @@
+.noteBox {
+    height: 175px;
+    width: 200px;
+    display: inline-flex;
+    margin-top: 40px;
+    margin-left: 40px;
+    border: 5px solid darkseagreen;
+    border-bottom-style: none;
+    border-top-style: none;
+    border-radius: 16px;
+  }
+  .bodyBox {
+    align-items: center;
+  }
+  .textBox {
+    margin-left: 10px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+  .deleteIcon{
+    color: red;
+    /* background-color: yellow; */
+    /* position: absolute; */
+    left: 463px;
+    
+  }
