@@ -1,0 +1,49 @@
+.container{
+    display: table-caption;
+      border: 4px solid grey;
+      border-inline-style: none;
+      padding-right: 214px;
+      border-radius: 16px;
+      margin-top: 63px;
+      margin-left: 146px;
+      } 
+      .inputText {
+        padding: 25px;
+        border: hidden;
+        font-size: 25px;
+        font-weight: bold;
+
+        // display: inline-block;    //for ...
+        // white-space: nowrap;
+        // overflow: hidden !important;
+        text-overflow: ellipsis;
+      }
+  .textArea {
+       border: hidden;
+      padding: 25px;
+  }
+  .textField {
+    display: grid;
+      padding: 20px;
+  }
+  .buttonText {
+    padding: 6px 8px;
+    cursor: pointer;
+    :hover{
+      color: black;
+    }
+     
+  }
+  .circlePlus{
+    background-color: red;
+      position: absolute;
+      border-radius: 100%;
+      height: 50px;
+      width: 50px;
+      left: 450px;
+  }
+  .addSign {
+    color: #ffce44;
+      position: absolute;
+      left: 463px;
+  }
